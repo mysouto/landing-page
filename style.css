@@ -127,8 +127,11 @@ ul {
 }
 
 /* quote section */
-.quote .container {
+.quote {
     background-color: #E5E7EB;
+}
+
+.quote .container {
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -173,8 +176,11 @@ ul {
 }
 
 /* footer */
-footer .container {
+footer {
     background-color: #1F2937;
+}
+
+footer .container {
     color: #E5E7EB;
     /* font-size: 18px; */
     display: flex;
