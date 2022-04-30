@@ -1,5 +1,13 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -139,7 +147,30 @@ ul {
 }
 
 /* sign-up section */
+.sign-up .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.sign-up-banner {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    flex-basis: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up-banner button {
+    border: solid;
+    border-color: #E5E7EB;
+    border-radius: 8px;
+    padding: 8px 20px;
+    background-color: #3882F6;
+    color: #E5E7EB; 
+}
 
 /* footer */
 footer .container {
@@ -150,4 +181,3 @@ footer .container {
     align-items: center;
     justify-content: center;
 }
-*/
