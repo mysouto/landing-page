@@ -117,3 +117,23 @@ ul {
     border: thick solid #3882f6;
     border-radius: 8px;
 }
+
+/* quote section */
+.quote .container {
+    background-color: #E5E7EB;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote .text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote .signature {
+    align-self: flex-end;
+}
