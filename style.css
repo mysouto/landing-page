@@ -22,34 +22,34 @@ ul {
 }
 
 /* nav */
-.hero-navbar {
+.navbar {
     height: 60px;
     background-color: #1F2937;
 }
 
-.hero-navbar .container {
+.navbar .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100%; 
 }
 
-.hero-navbar ul {
+.navbar ul {
     display: flex;
     gap: 20px;
 }
 
-.hero-navbar a {
+.navbar a {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
 }
 
-.hero-navbar a:hover {
+.navbar a:hover {
     color:#3882F6
 }
 
-.hero-navbar .logo {
+.navbar .logo {
     color: #E5E7EB;
     font-size: 24px;
 }
