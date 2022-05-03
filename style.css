@@ -8,6 +8,7 @@ h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 
 ul {
@@ -54,33 +55,24 @@ ul {
 }
 
 /* hero-main */
-.hero-main {
+.hero {
     min-height: 400px;
+    width: 100%;
     background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.hero-main .container {
+.hero .container {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    align-items: center;
 }
 
-/* common pattern - responsive design
-.container {
-  width: 50%;
-  height: 200px;
-  overflow: hidden;
-}
- */
- 
-.hero-main .hero-img {
-    /* min-height: 80px;
-    min-width: 300px; */
-    color: white;
-    background-color: gray;
+.hero-main {
+    padding-right: 40px;
+    flex: 1;
 }
 
 .hero-main p {
@@ -89,11 +81,23 @@ ul {
 }
 
 .hero-main button {
+    background-color: #3882F6;
+    color: #E5E7EB; 
+    width: 120px;
     border: none;
     border-radius: 8px;
     padding: 12px;
-    background-color: #3882F6;
-    color: #E5E7EB; 
+}
+
+.hero-img {
+    height: 250px;
+    max-width: 450px;
+    color: white;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 /*  info section  */
@@ -182,6 +186,7 @@ ul {
 }
 
 .sign-up-banner button {
+    width: 120px;
     border: solid;
     border-color: #E5E7EB;
     border-radius: 8px;
